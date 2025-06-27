@@ -37,6 +37,7 @@ html{
 }
 body{
     min-height: 100vh;
+    background-image: url(images/web111.webp);
     background-color: var(--color-bg-main);
     color: var(--color-text-main);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -45,7 +46,6 @@ body{
 header{
     font-weight: bold;
     height: 70px;
-    background: var(--color-bg-main);
     align-items: center;
     position: fixed;
     width: 100%;
