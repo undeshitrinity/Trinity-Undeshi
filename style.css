@@ -37,9 +37,8 @@ html{
 }
 body{
     min-height: 100vh;
-    background-image: url(images/web111.webp);
-    background-color: var(--color-bg-main);
-    color: var(--color-text-main);
+    background-color: black;
+    color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -209,14 +208,13 @@ span{
 /* the button below the text in homepage owns this style */
 .btn{
   padding: 15px;
-  background-color: var(--color-primary);
+  background-color: rgb(65, 57, 57);
   border-radius: 5px;
   width: 120px;
   font-weight: bold;
   /* border: 1px solid black; */
   text-transform: capitalize;
   margin-top: 10px;
-  color: #fff;
 }
 .btn:hover{
   background-color: var(--color-primary-hover);
@@ -294,6 +292,7 @@ span{
     margin-top: 10px;
     width: 120px;
     padding: 8px;
+    color: black;
   }
   #images{
     height: 150px;
@@ -523,7 +522,10 @@ p{
 /* this is the code thatv removes the text  decoration from the submit button*/
 .submit-btn a{
   text-decoration: none;
-  color: #000;
+  color: #fdf8f8;
+}
+.submit-btn{
+  background-color: var(--color-bg-main);
 }
 .submit-btn:hover{
   background-color: #000;
